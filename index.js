@@ -8,7 +8,7 @@ const app = express()
 app.use(cors());
 app.use(route);
 
-const port = 2727 || process.env.PORT
+const port = process.env.PORT || 2727
 
 app.listen(port, () => {
     console.log('Server running at ' +port);
