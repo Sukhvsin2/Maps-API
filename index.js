@@ -4,6 +4,7 @@ const route = require('./routes/mapRoutes')
 
 const app = express()
 
+app.use(cors());
 app.use(route);
 
 app.listen(2727, () => {
