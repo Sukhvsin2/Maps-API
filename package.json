@@ -1,0 +1,12 @@
+{
+  "name": "geoserver",
+  "version": "1.0.0",
+  "description": "Geographic Maps points server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sukhvsin2",
+  "license": "ISC"
+}
